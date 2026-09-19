@@ -1,0 +1,21 @@
+{
+  "id":"./",
+  "name":"Catatan Keuangan NTD",
+  "short_name":"Keuangan NTD",
+  "description":"Catatan keuangan pribadi dalam New Taiwan Dollar (NTD).",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "display_override":["window-controls-overlay","standalone"],
+  "orientation":"portrait",
+  "background_color":"#e8f6f4",
+  "theme_color":"#57aaa8",
+  "lang":"id",
+  "dir":"ltr",
+  "icons":[
+    {"src":"icon-96.png","sizes":"96x96","type":"image/png","purpose":"any maskable"},
+    {"src":"icon-180.png","sizes":"180x180","type":"image/png","purpose":"any maskable"},
+    {"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

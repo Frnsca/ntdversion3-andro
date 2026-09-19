@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cfeff3"/>
+      <stop offset="1" stop-color="#dff3e8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#71939a" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect x="12" y="12" width="488" height="488" rx="116" fill="url(#bg)"/>
+  <circle cx="92" cy="102" r="28" fill="#fff" opacity=".75"/>
+  <circle cx="425" cy="94" r="18" fill="#fff" opacity=".65"/>
+  <path d="M75 390c35-35 75-45 112-25 42 23 96 27 140 5 42-21 84-11 111 20v56H75z" fill="#b9dfc9" opacity=".85"/>
+  <g filter="url(#shadow)">
+    <circle cx="164" cy="174" r="67" fill="#252f31"/>
+    <circle cx="348" cy="174" r="67" fill="#252f31"/>
+    <path d="M256 104c-108 0-174 70-174 174 0 103 73 170 174 170s174-67 174-170c0-104-66-174-174-174z" fill="#fffaf2"/>
+    <ellipse cx="190" cy="220" rx="47" ry="58" transform="rotate(27 190 220)" fill="#252f31"/>
+    <ellipse cx="322" cy="220" rx="47" ry="58" transform="rotate(-27 322 220)" fill="#252f31"/>
+    <circle cx="205" cy="214" r="11" fill="#fff"/>
+    <circle cx="307" cy="214" r="11" fill="#fff"/>
+    <circle cx="207" cy="216" r="6" fill="#252f31"/>
+    <circle cx="305" cy="216" r="6" fill="#252f31"/>
+    <ellipse cx="256" cy="274" rx="27" ry="21" fill="#252f31"/>
+    <path d="M256 286c-10 17-28 20-40 8M256 286c10 17 28 20 40 8" fill="none" stroke="#252f31" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="155" cy="286" r="22" fill="#f3b9b2" opacity=".55"/>
+    <circle cx="357" cy="286" r="22" fill="#f3b9b2" opacity=".55"/>
+    <path d="M202 352c28 19 80 19 108 0" fill="none" stroke="#86b8b0" stroke-width="13" stroke-linecap="round"/>
+  </g>
+  <path d="M93 427c34-16 63-14 89 7" fill="none" stroke="#79a99c" stroke-width="12" stroke-linecap="round"/>
+  <path d="M330 431c31-22 60-20 88-1" fill="none" stroke="#79a99c" stroke-width="12" stroke-linecap="round"/>
+</svg>
